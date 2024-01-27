@@ -8,4 +8,10 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Bağımlılıkları yükle
-RUN pip install --no-cache-dir -r requiremen
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Uygulama kodunu kopyala
+COPY . .
+
+# Uygulamayı çalıştır
+CMD ["python", "uygulama.py"]
