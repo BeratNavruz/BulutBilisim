@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: bulut-bilisim-project
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: bulut-bilisim-project
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: bulut-bilisim-project-kub
-        image: beratnavruz/bulutbilisimdockerhub:v10
+        image: beratnavruz/bulutbilisimdockerhub:v11
         ports:
         - containerPort: 8080
