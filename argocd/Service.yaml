@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: bulut-bilisim-project-service
+  name: bulutbilisimservice
 spec:
   selector:
-    name: bulut-bilisim-project-service
+    name: bulutbilisimservice
   ports:
     - protocol: TCP
       port: 80
