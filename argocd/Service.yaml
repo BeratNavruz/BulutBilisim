@@ -4,7 +4,7 @@ metadata:
   name: bulut-bilisim-project-service
 spec:
   selector:
-    name: bulut-bilisim-project
+    name: bulut-bilisim-project-service
   ports:
     - protocol: TCP
       port: 80
