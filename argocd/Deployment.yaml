@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: bulut-bilisim-project-kub
-        image: beratnavruz/bulutbilisimdockerhub:v20
+        image: beratnavruz/bulutbilisimdocker:v1
         ports:
         - containerPort: 8080
